@@ -1,0 +1,96 @@
+body {
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(
+    to bottom,
+    #e0e7ff,
+    #f9fafb
+  ); /* soft gradient background */
+  color: #374151; /* dark grey text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero {
+  /*Use a personal background image or more specific*/
+  background-image: url("https://images.unsplash.com/photo-1581578017427-74f97f9d86de?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  color: #1d4ed8; /* trust-building blue */
+}
+
+.hero h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+button,
+a.button {
+  background-color: #1d4ed8;
+  padding: 12px 24px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+button:hover,
+a.button:hover {
+  background-color: #2563eb;
+}
+
+section {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 900px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background-color: #f9fafb;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #2563eb;
+  outline: none;
+}
